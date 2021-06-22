@@ -1,7 +1,6 @@
 import Clases.Dulce;
 import Clases.Dulceria;
 import Clases.Empleado;
-import Clases.Venta;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -98,6 +97,7 @@ public class Tienda {
             empleado = null;
             System.out.println("No se encuentra tu empleado\n\n");
         }
+        console.close();
 
     }
 
@@ -212,6 +212,7 @@ public class Tienda {
                     System.out.println(" Número Incorrecto");
             }
         }
+        console.close();
     }
 
     public static void main(String[] args) {
@@ -240,6 +241,6 @@ public class Tienda {
                 }
             }
         }
-
+        console.close();
     }
 }
